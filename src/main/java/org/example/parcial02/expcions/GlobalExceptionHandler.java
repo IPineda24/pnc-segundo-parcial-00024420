@@ -1,6 +1,5 @@
-package expcions;
+package org.example.parcial02.expcions;
 
-import expcions.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

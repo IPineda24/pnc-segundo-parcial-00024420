@@ -1,6 +1,6 @@
-package domain.entities;
+package org.example.parcial02.domain.entities;
 
-import domain.enums.Genre;
+import org.example.parcial02.domain.enums.Genre;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDate;

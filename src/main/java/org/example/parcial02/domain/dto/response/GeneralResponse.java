@@ -1,4 +1,4 @@
-package domain.dto.response;
+package org.example.parcial02.domain.dto.response;
 
 import lombok.Builder;
 import lombok.Data;

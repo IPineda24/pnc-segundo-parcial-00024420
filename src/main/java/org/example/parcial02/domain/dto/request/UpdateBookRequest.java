@@ -1,12 +1,15 @@
-package domain.dto.request;
+package org.example.parcial02.domain.dto.request;
 
-import domain.enums.Genre;
-import jakarta.validation.constraints.*;
+import org.example.parcial02.domain.enums.Genre;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.PastOrPresent;
 import lombok.Data;
-import java.time.LocalDate;
 
+import java.time.LocalDate;
 @Data
-public class CreateBookRequest {
+public class UpdateBookRequest {
     @NotBlank(message = "Se necesita el titulo")
     private String title;
 

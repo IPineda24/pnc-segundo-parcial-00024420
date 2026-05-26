@@ -1,4 +1,4 @@
-package expcions;
+package org.example.parcial02.expcions;
 
 
 public class ResourceNotFoundException extends RuntimeException {
