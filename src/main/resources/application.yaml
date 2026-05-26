@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: parcial02
+  datasource:
+    url: ${BD}
+    username: ${USER}
+    password: ${PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
